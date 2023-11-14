@@ -2,75 +2,69 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Currency Converter</title>
   <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
 </head>
 <body>
- 
- <header>
+  <header>
     <img src="./images/logo.svg" alt="bank logo">
-<nav>
-            <p>BANK</p>
-            <p>BİZNES</p>
-            <p>İNVESTİSİYA</p>
-            <p>SIĞORTA</p>
-            <p>MOBİL</p>
-            <p>SƏFƏRLƏR</p>
-            <p>ƏYLƏNCƏ</p>
-        </nav>
-            <button>
-                GİRİŞ
-            </button>
- </header>
- <main>
-  
-
-
-
-  <div class="container">
-    <h1>Onlayn valyuta çeviricisi</h1>
-    <div class="converters">
-    <div class="converter first">
-        <div class="text">
+    <nav>
+      <p>BANK</p>
+      <p>BİZNES</p>
+      <p>İNVESTİSİYA</p>
+      <p>SIĞORTA</p>
+      <p>MOBİL</p>
+      <p>SƏFƏRLƏR</p>
+      <p>ƏYLƏNCƏ</p>
+    </nav>
+    <button>
+      GİRİŞ
+    </button>
+  </header>
+  <main>
+    <div class="container">
+      <h1>Onlayn valyuta çeviricisi</h1>
+      <div class="converters">
+        <div class="converter">
+          <div class="info">
             <p>Mənim varımdır</p>
-        </div>
-        
-        <div class="currency1">
-          <button class="right-rub ">RUB</button>
-          <button class="right-usd">USD</button>
-          <button class="right-eur">EUR</button>
-          <button class="right-try">TRY</button>
-      </div>
+          </div>
 
-      <div class="input">
-        <input class="input1" type="number" id="amount-one">
-        <p class="rate"></p>
-    </div>
-     
-    </div>
-    <div class="converter second">
-        <div class="text">
+          <div class="currency-first">
+            <button class="right-rub ">RUB</button>
+            <button class="right-usd">USD</button>
+            <button class="right-eur">EUR</button>
+            <button class="right-try">TRY</button>
+          </div>
+
+          <div class="input">
+            <input type="number" id="amount-one">
+            <p class="rate"></p>
+          </div>
+
+        </div>
+        <div class="converter">
+          <div class="info">
             <p>Almaq istəyirəm</p>
+          </div>
+          <div class="currency-second">
+            <button class="left-rub">RUB</button>
+            <button class="left-usd  ">USD</button>
+            <button class="left-eur">EUR</button>
+            <button class="left-try">TRY</button>
+          </div>
+          <div class="input">
+            <input type="number" id="amount-two">
+            <p class="rate2"></p>
+          </div>
         </div>
-        <div class="currency2">
-          <button class="left-rub" >RUB</button>
-          <button class="left-usd  ">USD</button>
-          <button class="left-eur">EUR</button>
-          <button class="left-try">TRY</button>
-      </div>
-      <div class="input">
-        <input class="input1" type="number" id="amount-two">
-        <p class="rate2"></p>
-    </div>
-    </div>
 
-  </div>
-  </div>
+      </div>
+    </div>
   </main>
+
   <script src="./app.js"></script>
 </body>
 
 </html>
-
