@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     
     let apiKey = 'dea2e6123933d630b4b61bee';
-    let apiUrl = `https://v6.exchangerate-api.com/v6/latest/${fromCurrency}?apikey=${apiKey}`;
+    let apiUrl = `https://open.er-api.com/v6/latest/${fromCurrency}?apikey=${apiKey}`;
 
     fetch(apiUrl)
       .then(response => response.json())
@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     let apiKey = 'dea2e6123933d630b4b61bee';
-    let apiUrl = `https://v6.exchangerate-api.com/v6/latest/${fromCurrency}?apikey=${apiKey}`;
+    let apiUrl = `https://open.er-api.com/v6/latest/${fromCurrency}?apikey=${apiKey}`;
 
     fetch(apiUrl)
       .then(response => response.json())
