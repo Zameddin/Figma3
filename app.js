@@ -171,4 +171,3 @@ function updateConvertedAmount2(fromInputId, toInputId, fromCurrencySelector, to
 
     .catch(error => console.error("Error fetching exchange rates:", error));
 }
-
